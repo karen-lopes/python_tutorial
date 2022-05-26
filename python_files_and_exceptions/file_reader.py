@@ -1,4 +1,4 @@
-with open('C:/Users/karen/Desktop/python_tutorial/python_files_and_exceptions/pi_digits.txt') as file_object:
+with open('pi_digits.txt') as file_object:
     contents = file_object.read()
     print(contents.rstrip())
 
